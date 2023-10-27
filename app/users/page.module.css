@@ -1,0 +1,31 @@
+.main {
+    background: url('/home.jpg') center center no-repeat;
+      background-size: cover;
+  height: 100vh;
+}
+
+.maincontainer {
+  background-color: #000000ec;
+  backdrop-filter: blur(5px);
+  height: 100%;
+}
+
+.usercard {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #FFF;
+  min-height: 200px;
+}
+
+.navFakeImage {
+    margin-right: 5px;
+    padding: 10px 15px;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: #FFF;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
